@@ -4,13 +4,13 @@ using System.Collections;
 public class Robot : Enemy {
 
     float speed;
-
+    Player player;
 
 	// Use this for initialization
 	void Start () {
         base.Start();
         speed = 0.05f;
-	    
+        player = GameObject.Find("Player").GetComponent<Player>();
 	}
 
     void move(string direction)
@@ -60,5 +60,9 @@ public class Robot : Enemy {
 	
 	// Update is called once per frame
 	void Update () {
+        if (player.isDetected())
+        {
+            makeMove();
+        }
 	}
 }
