@@ -91,7 +91,7 @@ public class Player : Actor {
 	void Update () {
 		TickCandle ();
 		candleText.text = "Candlelight: " + candleLife;
-//        detectedText.text = "Detected: " + detected;
+        detectedText.text = "Detected: " + detected;
 //        int horizontal = 0;
 //        int vertical = 0;
 //
