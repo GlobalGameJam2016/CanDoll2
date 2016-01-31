@@ -1,5 +1,5 @@
+Night 1
 The Attic
-
 Toy chest in the top corner, few other objects in the room. One window with 5 candles in a candleholder. one candle is lit. Right outside the toybox is a “cone­enemy” when the doll breaks out(introduce detection mechanic).
 The life of a toy is simple. 
 ... When the candle shines, we come out to play...
