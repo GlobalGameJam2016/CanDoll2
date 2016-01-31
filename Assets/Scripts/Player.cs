@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class Player : Actor {
 
     //private Animator animator;
-    private int candleLife;
+    private double candleLife;
     private bool detected;
-	public int hiddenRate;
+	public double hiddenRate;
 	public int detectedRate;
 	public Text candleText;
     public Text detectedText;
@@ -38,11 +38,11 @@ public class Player : Actor {
 		anum = GetComponent<Animator>();
 		anum.SetInteger ("Direction", 0);
 	}
-
-    public int getCandleLife() 
-	{
-        return candleLife;
-    }
+    //
+   // public int getCandleLife() 
+	//{
+    //    return (int) candleLife;
+    //}
 
     public void detect() 
 	{
@@ -90,7 +90,7 @@ public class Player : Actor {
 	// Update is called once per frame
 	void Update () {
 		TickCandle ();
-		candleText.text = "Candlelight: " + candleLife;
+		candleText.text = "Candlelight: " + (int)candleLife;
 //        detectedText.text = "Detected: " + detected;
 //        int horizontal = 0;
 //        int vertical = 0;
