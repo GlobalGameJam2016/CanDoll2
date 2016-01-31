@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: b79e6c5b3c74b458cb7e7f01dc612d57
-timeCreated: 1454265371
+timeCreated: 1454270343
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: candle_flame_blue_0
+    21300002: candle_flame_blue_1
+    21300004: candle_flame_blue_2
+    21300006: candle_flame_blue_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +42,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +53,106 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: candle_flame_blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 571
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 31.537338}
+        - {x: 38, y: 77.53734}
+        - {x: 28, y: 92.53734}
+        - {x: 20, y: 92.53734}
+        - {x: 20, y: 76.53734}
+        - {x: 16, y: 52.53734}
+        - {x: 17, y: 63.53734}
+        - {x: 18, y: 68.53734}
+        - {x: 17, y: 72.53734}
+        - {x: -44, y: 42.53734}
+        - {x: -54, y: 12.537338}
+        - {x: -54, y: -51.46266}
+        - {x: 7, y: -91.46266}
+        - {x: 19, y: -91.46266}
+        - {x: 54, y: -22.462662}
+        - {x: 54, y: 29.537338}
+        - {x: 38, y: 35.53734}
+    - name: candle_flame_blue_1
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 98
+        width: 680
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.499023, y: 74.44035}
+        - {x: -16.500977, y: 74.44035}
+        - {x: -63.500977, y: 34.440353}
+        - {x: -63.500977, y: -21.559647}
+        - {x: -15.500977, y: -64.55965}
+        - {x: 16.499023, y: -73.55965}
+        - {x: 58.499023, y: -73.55965}
+        - {x: 65.49902, y: -61.559647}
+        - {x: 65.49902, y: 35.440353}
+        - {x: 63.499023, y: 49.440353}
+    - name: candle_flame_blue_2
+      rect:
+        serializedVersion: 2
+        x: 7310
+        y: 61
+        width: 404
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.000488, y: 80.97818}
+        - {x: -13.000488, y: 76.97818}
+        - {x: -10.000488, y: 63.97818}
+        - {x: -33.00049, y: 32.97818}
+        - {x: -38.00049, y: 21.97818}
+        - {x: -38.00049, y: -39.02182}
+        - {x: -34.00049, y: -66.02182}
+        - {x: -16.000488, y: -80.02182}
+        - {x: 14.999512, y: -80.02182}
+        - {x: 38.99951, y: -49.02182}
+        - {x: 38.99951, y: 53.97818}
+        - {x: 16.999512, y: 80.97818}
+    - name: candle_flame_blue_3
+      rect:
+        serializedVersion: 2
+        x: 10401
+        y: 0
+        width: 475
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.12317, y: 15.5}
+        - {x: 20.123169, y: 40.5}
+        - {x: -10.876831, y: 68.5}
+        - {x: -13.876831, y: 67.5}
+        - {x: -13.876831, y: 64.5}
+        - {x: -3.876831, y: 34.5}
+        - {x: -12.876831, y: 58.5}
+        - {x: -13.876831, y: 64.5}
+        - {x: -13.876831, y: 92.5}
+        - {x: -33.87683, y: 92.5}
+        - {x: -44.87683, y: 67.5}
+        - {x: -44.87683, y: -28.5}
+        - {x: -12.876831, y: -92.5}
+        - {x: -5.876831, y: -92.5}
+        - {x: 36.12317, y: -60.5}
+        - {x: 45.12317, y: -47.5}
     outline: []
   spritePackingTag: 
   userData: 
