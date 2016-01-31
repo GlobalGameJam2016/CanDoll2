@@ -7,17 +7,22 @@ public class GameManager : MonoBehaviour {
 	// Time to wait to start a level (display black screen)
 	public float levelStartDelay = 1f;
     public static GameManager instance = null;
-    private int level = 1;
+	public int level = 1;
+	public bool game;
     public Player player;
     public List<Enemy> enemies; 
+	public GameObject textPanel;
+	public GameObject[] items;
+	public Transform shithole;
+	public Vector3[] originalPosition;
 
 	// Display level
-	private Text levelText;
+	//private Text levelText;
 	// Use this to show or hide level loading screen
-	private GameObject levelImage;
+	//private GameObject levelImage;
 
 	// Prevent player from moving during setup
-	private bool doingSetup;
+	public bool doingSetup;
 
 	private GameManager(){
 	}
@@ -37,7 +42,8 @@ public class GameManager : MonoBehaviour {
 
 	private void HideLevelImage()
 	{
-		levelImage.SetActive (false);
+		//levelImage.SetActive (false);
+		//textPanel.SetActive (true);
 		doingSetup = false;
 	}
 
@@ -57,18 +63,27 @@ public class GameManager : MonoBehaviour {
     void InitGame()
 	{
 		doingSetup = true;
-		levelImage = GameObject.Find ("LevelImage");
-		levelText = GameObject.Find ("LevelText").GetComponent<Text> ();
-		levelText.text = "Night " + level;
-		levelImage.SetActive (true);
-		Invoke ("HideLevelImage", levelStartDelay);
+		textPanel.SetActive (true);
+		for (int i = 1; i < items.Length; i++) {
+			originalPosition [i] = items [i].transform.position;
+			items [i].transform.position = shithole.position;
+		}
+		//textPanel = GameObject.Find ("Panel");
+		//levelImage = GameObject.Find ("LevelImage");
+		//levelText = GameObject.Find ("LevelText").GetComponent<Text> ();
+		//levelText.text = "Night " + level;
+		//textPanel.SetActive (false);
+		//levelImage.SetActive (true);
+		//Invoke ("HideLevelImage", levelStartDelay);
 	}
 
 	// Update is called once per frame
 	void Update () 
 	{
-		if (doingSetup)
+		if (doingSetup) {
+			player.candleLife = 1000000;
 			return;
+		}
 	
 	}
 }

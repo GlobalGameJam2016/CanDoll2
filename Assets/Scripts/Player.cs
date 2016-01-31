@@ -5,7 +5,10 @@ using UnityEngine.UI;
 public class Player : Actor {
 
     //private Animator animator;
-    private int candleLife;
+	public int candleLife;
+	public bool hasShoe;
+	public bool hasGlasses;
+	public bool hasHair;
     private bool detected;
 	public int hiddenRate;
 	public int detectedRate;
@@ -21,7 +24,7 @@ public class Player : Actor {
 
 	// Use this for initialization
 	protected override void Start () {
-        candleLife = 100000;
+        candleLife = 1000000;
         detected = false;
         base.speed = 8;
         base.Start();

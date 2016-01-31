@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class TextBoxManager : MonoBehaviour {
 
 	public GameObject textBox;
-
+	public GameManager gameManager;
 	public Text theText;
 
 	public int currentLine;
@@ -31,7 +31,10 @@ public class TextBoxManager : MonoBehaviour {
 			
 		if (Input.GetKeyDown(KeyCode.Return)) {
 			if (currentLine > endAtLine) {
-				textBox.SetActive (false);
+				//textBox.SetActive (false);
+				textBox.SetActive(false);
+
+				GameManager.instance.doingSetup = false;
 				return;
 			}
 			theText.text = textLines [currentLine];
