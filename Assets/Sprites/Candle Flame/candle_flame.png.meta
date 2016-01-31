@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 08e1553f4dafc49f3858f426ed350e4a
-timeCreated: 1454265331
+timeCreated: 1454270247
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: candle_flame_0
+    21300002: candle_flame_1
+    21300004: candle_flame_2
+    21300006: candle_flame_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +42,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +53,96 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: candle_flame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 716
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 57}
+        - {x: 35, y: 69}
+        - {x: 3, y: 69}
+        - {x: -69, y: 14}
+        - {x: -69, y: -39}
+        - {x: -5, y: -69}
+        - {x: 32, y: -69}
+        - {x: 69, y: -15}
+        - {x: 69, y: 18}
+        - {x: 49, y: 30}
+    - name: candle_flame_1
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 44
+        width: 843
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.00171, y: -16.047508}
+        - {x: -35.00171, y: -50.04751}
+        - {x: -18.001709, y: -56.04751}
+        - {x: 75.99829, y: -56.04751}
+        - {x: 81.99829, y: -46.04751}
+        - {x: 81.99829, y: 29.952492}
+        - {x: 78.99829, y: 32.95249}
+        - {x: 33.99829, y: 56.95249}
+        - {x: -12.001709, y: 56.95249}
+        - {x: -81.00171, y: 19.952492}
+    - name: candle_flame_2
+      rect:
+        serializedVersion: 2
+        x: 6832
+        y: 112
+        width: 500
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.941284, y: 61.01543}
+        - {x: -38.058716, y: 61.01543}
+        - {x: -48.058716, y: 23.01543}
+        - {x: -48.058716, y: -44.98457}
+        - {x: -17.058716, y: -59.98457}
+        - {x: 17.941284, y: -59.98457}
+        - {x: 39.941284, y: -37.98457}
+        - {x: 48.941284, y: -21.98457}
+        - {x: 48.941284, y: 42.01543}
+    - name: candle_flame_3
+      rect:
+        serializedVersion: 2
+        x: 10065
+        y: 29
+        width: 596
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.992798, y: 57.07096}
+        - {x: -18.992798, y: 51.07096}
+        - {x: -9.992798, y: 35.07096}
+        - {x: -9.992798, y: 28.070961}
+        - {x: -19.992798, y: 54.07096}
+        - {x: -19.992798, y: 70.07096}
+        - {x: -39.992798, y: 70.07096}
+        - {x: -56.992798, y: 48.07096}
+        - {x: -56.992798, y: -19.929039}
+        - {x: -53.992798, y: -27.929039}
+        - {x: -19.992798, y: -68.92904}
+        - {x: -7.992798, y: -68.92904}
+        - {x: 52.007202, y: -48.92904}
+        - {x: 58.007202, y: -31.929039}
+        - {x: 58.007202, y: 8.070961}
+        - {x: 42.007202, y: 23.070961}
     outline: []
   spritePackingTag: 
   userData: 
