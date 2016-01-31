@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 61a37053b527c4397ae945f9de3d27fc
+timeCreated: 1454149452
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: doll_bw_walkf_0
+    21300002: doll_bw_walkf_1
+    21300004: doll_bw_walkf_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: doll_bw_walkf_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 149
+        width: 1415
+        height: 1819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.54401, y: 68.42038}
+        - {x: 71.54401, y: 104.42038}
+        - {x: 41.544006, y: 113.42038}
+        - {x: -61.455994, y: 113.42038}
+        - {x: -87.45599, y: 101.42038}
+        - {x: -87.45599, y: -49.57962}
+        - {x: -50.455994, y: -110.57962}
+        - {x: -45.455994, y: -112.57962}
+        - {x: 26.544006, y: -112.57962}
+        - {x: 44.544006, y: -104.57962}
+        - {x: 73.54401, y: -52.57962}
+        - {x: 88.54401, y: -12.57962}
+    - name: doll_bw_walkf_1
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 174
+        width: 1415
+        height: 1769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.53412, y: 78.51105}
+        - {x: 59.53412, y: 110.51105}
+        - {x: -51.46588, y: 110.51105}
+        - {x: -87.46588, y: 97.51105}
+        - {x: -87.46588, y: 16.511047}
+        - {x: -58.46588, y: -8.488953}
+        - {x: -36.46588, y: -19.488953}
+        - {x: -36.46588, y: -18.488953}
+        - {x: -38.46588, y: -19.488953}
+        - {x: -60.46588, y: -40.488953}
+        - {x: -81.46588, y: -62.488953}
+        - {x: -24.465881, y: -109.48895}
+        - {x: 42.53412, y: -109.48895}
+        - {x: 59.53412, y: -76.48895}
+        - {x: 75.53412, y: -43.488953}
+        - {x: 88.53412, y: -1.4889526}
+    - name: doll_bw_walkf_2
+      rect:
+        serializedVersion: 2
+        x: 6718
+        y: 149
+        width: 1415
+        height: 1819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.52423, y: 88.42038}
+        - {x: 52.52423, y: 113.42038}
+        - {x: -60.47577, y: 113.42038}
+        - {x: -76.47577, y: 102.42038}
+        - {x: -87.47577, y: 81.42038}
+        - {x: -87.47577, y: 18.42038}
+        - {x: -74.47577, y: -44.57962}
+        - {x: -39.47577, y: -112.57962}
+        - {x: 23.524231, y: -112.57962}
+        - {x: 43.52423, y: -104.57962}
+        - {x: 77.52423, y: -41.57962}
+        - {x: 88.52423, y: -6.5796204}
+        - {x: 88.52423, y: 71.42038}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

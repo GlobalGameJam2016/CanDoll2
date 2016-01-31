@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: af99b609376c84d3ab3e884d76696a7a
+timeCreated: 1454150037
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: doll_bw_walkleft_0
+    21300002: doll_bw_walkleft_1
+    21300004: doll_bw_walkleft_2
+    21300006: doll_bw_walkleft_3
+    21300008: doll_bw_walkleft_4
+    21300010: doll_bw_walkleft_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: doll_bw_walkleft_0
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 150
+        width: 1032
+        height: 1775
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.94577, y: 116.48497}
+        - {x: -50.05423, y: 116.48497}
+        - {x: -50.05423, y: -82.51503}
+        - {x: -35.05423, y: -115.51503}
+        - {x: 45.94577, y: -115.51503}
+        - {x: 67.94577, y: -43.51503}
+        - {x: 67.94577, y: 71.48497}
+        - {x: 53.94577, y: 101.48497}
+      - - {x: -67.05423, y: -53.51503}
+        - {x: -66.05423, y: -54.51503}
+        - {x: -63.05423, y: -53.51503}
+        - {x: -63.05423, y: -50.51503}
+        - {x: -66.05423, y: -49.51503}
+        - {x: -67.05423, y: -50.51503}
+    - name: doll_bw_walkleft_1
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 150
+        width: 1023
+        height: 1775
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.443726, y: 116.48497}
+        - {x: -49.443726, y: -95.51503}
+        - {x: -32.443726, y: -115.51503}
+        - {x: 47.556274, y: -115.51503}
+        - {x: 67.556274, y: -49.51503}
+        - {x: 67.556274, y: 87.48497}
+        - {x: 54.556274, y: 116.48497}
+      - - {x: -66.443726, y: -53.51503}
+        - {x: -65.443726, y: -54.51503}
+        - {x: -62.443726, y: -53.51503}
+        - {x: -62.443726, y: -50.51503}
+        - {x: -65.443726, y: -49.51503}
+        - {x: -66.443726, y: -50.51503}
+    - name: doll_bw_walkleft_2
+      rect:
+        serializedVersion: 2
+        x: 6709
+        y: 165
+        width: 1032
+        height: 1745
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.00232, y: 114.433464}
+        - {x: -50.00232, y: 112.433464}
+        - {x: -50.00232, y: -41.566536}
+        - {x: -45.00232, y: -113.566536}
+        - {x: 44.99768, y: -113.566536}
+        - {x: 67.99768, y: -47.566536}
+        - {x: 67.99768, y: 97.433464}
+        - {x: 57.99768, y: 114.433464}
+      - - {x: -67.00232, y: -55.566536}
+        - {x: -66.00232, y: -56.566536}
+        - {x: -63.00232, y: -55.566536}
+        - {x: -63.00232, y: -52.566536}
+        - {x: -66.00232, y: -51.566536}
+        - {x: -67.00232, y: -52.566536}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
