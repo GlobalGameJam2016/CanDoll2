@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 0ea8aaf62b94c460ca0024ec63883ebe
-timeCreated: 1454265337
+timeCreated: 1454266769
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Cat_left_0
+    21300002: Cat_left_1
+    21300004: Cat_left_2
+    21300006: Cat_left_3
+    21300008: Cat_left_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,8 +31,8 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 2048
+  textureFormat: -2
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -38,7 +43,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +54,110 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Cat_left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1515
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Cat_left_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 116
+        width: 2957
+        height: 2422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.53934, y: -85.4872}
+        - {x: 51.539337, y: -107.4872}
+        - {x: 56.539337, y: -120.4872}
+        - {x: 92.53934, y: -123.4872}
+        - {x: 135.53934, y: -96.4872}
+        - {x: 160.53934, y: 31.512802}
+        - {x: 160.53934, y: 115.5128}
+        - {x: 131.53934, y: 130.5128}
+        - {x: 126.53934, y: 131.5128}
+        - {x: 93.53934, y: 131.5128}
+        - {x: 77.53934, y: 115.5128}
+        - {x: 76.53934, y: 88.5128}
+        - {x: 83.53934, y: 78.5128}
+        - {x: -119.46066, y: 88.5128}
+        - {x: -159.46066, y: 58.512802}
+        - {x: -159.46066, y: -50.487198}
+        - {x: -133.46066, y: -130.4872}
+        - {x: -61.460663, y: -130.4872}
+        - {x: -35.460663, y: -124.4872}
+        - {x: 43.539337, y: -101.4872}
+        - {x: 74.53934, y: -87.4872}
+        - {x: 77.53934, y: -84.4872}
+    - name: Cat_left_2
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 79
+        width: 2957
+        height: 2186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 160.54755, y: 107.021645}
+        - {x: 135.54755, y: 119.021645}
+        - {x: 65.54755, y: 119.021645}
+        - {x: 79.54755, y: 42.021645}
+        - {x: -53.452454, y: 68.021645}
+        - {x: -129.45245, y: 71.021645}
+        - {x: -159.45245, y: 55.021645}
+        - {x: -159.45245, y: -117.978355}
+        - {x: -2.4524536, y: -117.978355}
+        - {x: 131.54755, y: -107.978355}
+        - {x: 147.54755, y: -75.978355}
+        - {x: 160.54755, y: -21.978355}
+    - name: Cat_left_3
+      rect:
+        serializedVersion: 2
+        x: 6531
+        y: 0
+        width: 2962
+        height: 2209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.49213, y: 119.5}
+        - {x: 42.492126, y: 33.5}
+        - {x: -109.50787, y: 90.5}
+        - {x: -159.50787, y: 67.5}
+        - {x: -159.50787, y: -5.5}
+        - {x: -124.50787, y: -20.5}
+        - {x: -110.50787, y: -111.5}
+        - {x: -102.50787, y: -119.5}
+        - {x: -59.507874, y: -119.5}
+        - {x: 31.492126, y: -102.5}
+        - {x: 47.492126, y: -119.5}
+        - {x: 127.49213, y: -119.5}
+        - {x: 160.49213, y: -25.5}
+        - {x: 160.49213, y: 119.5}
+    - name: Cat_left_4
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1246
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
