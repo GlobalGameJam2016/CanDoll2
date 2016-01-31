@@ -3,12 +3,13 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class Player : Actor {
-
-    //private Animator animator;
 	public int candleLife;
 	public bool hasShoe;
 	public bool hasGlasses;
 	public bool hasHair;
+	public bool hasBlood;
+	public bool hasButton;
+
     private bool detected;
 	public int hiddenRate;
 	public int detectedRate;
@@ -78,9 +79,16 @@ public class Player : Actor {
 		candleLife -= dogDamage;
 	}
 
+	private void Restart()
+	{
+		if (Input.GetKey (KeyCode.R)) {
+			Application.LoadLevel (0);
+		}
+	}
 	private void Death(){
-		gameOverText.text = "Game Over!";
+		gameOverText.text = "Game Over! Press R to restart";
 		gameOverImage.SetActive (true);
+		Invoke ("Restart", 0f);
 	}
 
 	void OnCollisionEnter2D (Collision2D obj)
@@ -93,7 +101,7 @@ public class Player : Actor {
 	// Update is called once per frame
 	void Update () {
 		TickCandle ();
-		candleText.text = "Candlelight: " + candleLife;
+		candleText.text = "Candlelight: " + Mathf.Round(candleLife/10000) + "%";
 //        detectedText.text = "Detected: " + detected;
 //        int horizontal = 0;
 //        int vertical = 0;
