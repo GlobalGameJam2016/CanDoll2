@@ -64,10 +64,7 @@ public class GameManager : MonoBehaviour {
 	{
 		doingSetup = true;
 		textPanel.SetActive (true);
-		for (int i = 1; i < items.Length; i++) {
-			originalPosition [i] = items [i].transform.position;
-			items [i].transform.position = shithole.position;
-		}
+	
 		//textPanel = GameObject.Find ("Panel");
 		//levelImage = GameObject.Find ("LevelImage");
 		//levelText = GameObject.Find ("LevelText").GetComponent<Text> ();
